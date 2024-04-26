@@ -1,9 +1,9 @@
 .transactionHistory {
-background-color: rgb(210, 226, 231);
-border: 1px solid rgb(143, 143, 175);
+background-color: #f9b3d1;
+border: 1px solid #ae7d9a;
     border-radius: 12px;
 
-box-shadow: 5px 5px 15px 5px #7a6c9c;  
+box-shadow: 5px 5px 15px 5px #624763;  
   width: 800px;
     padding: 20px;
     margin: 40px;
@@ -22,7 +22,7 @@ box-shadow: 5px 5px 15px 5px #7a6c9c;
 }
 
 .tableData:hover {
-    background: rgb(210, 226, 231);
+    background: #f9b3d1;
         scale: 1.02;
 }
 
@@ -36,9 +36,9 @@ box-shadow: 5px 5px 15px 5px #7a6c9c;
 }
 
 tr:nth-child(odd) {
-    background-color: #cac4ec;
+    background-color: #829CBC;
 }
 
 tr:nth-child(even) {
-    background-color: #cac4ec;
+    background-color: #829CBC;
 }

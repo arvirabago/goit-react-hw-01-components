@@ -4,10 +4,10 @@
     flex-direction: row;
     align-items: center;
     gap: 45px;
-    border: 1px solid rgb(143, 143, 175);
+    border: 1px solid #624763;
     width: 220px;
-    background-color: rgb(210, 226, 231);
-    box-shadow: 5px 5px 15px 5px #7a6c9c;
+    background-color: #F9B3D1;
+    box-shadow: 5px 5px 15px 5px #AE7D9A;
     border-radius: 12px;
     padding: 15px;
     transition: scale 300ms, transform 300ms;
@@ -21,13 +21,13 @@
 .statusOnline {
     width: 25px;
     height: 25px;
-    background-color: rgb(138, 226, 138);
+    background-color: #61D582;
     border-radius: 50%;
     display: block;
 }
 
 .statusOffline {
-    background-color: rgb(214, 67, 67);
+    background-color: #B80C09;
     display: block;
     width: 25px;
     height: 25px;

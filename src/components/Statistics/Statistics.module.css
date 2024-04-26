@@ -3,14 +3,14 @@
   margin: 40px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(210, 226, 231);
+  background-color: #f9b3d1;
   justify-content: space-between;
   align-items: center;
 
-  border: 1px solid rgb(143, 143, 175);
+  border: 1px solid#ae7d9a;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 5px 5px 15px 5px #7a6c9c;
+  box-shadow: 5px 5px 15px 5px #ae7d9a;
   gap: 35px;
   transition: scale 300ms;
 }
@@ -31,7 +31,7 @@
 }
 
 .item {
-  border: 1px solid rgb(143, 143, 175);
+  border: 1px solid #ae7d9a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,11 +50,11 @@
 
 .label {
   font-size: 22px;
-  color: #120824;
+  color: #2D3047;
 }
 
 .percentage {
   font-size: 28px;
   font-weight: 500;
-  color: #120824;
+  color: #2D3047;
 }

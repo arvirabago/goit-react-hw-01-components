@@ -1,0 +1,39 @@
+.item {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    border: 1px solid rgb(143, 143, 175);
+    width: 220px;
+    background-color: rgb(210, 226, 231);
+    box-shadow: 5px 5px 15px 5px #7a6c9c;
+    border-radius: 12px;
+    padding: 15px;
+    transition: scale 300ms, transform 300ms;
+}
+
+.item:hover {
+    scale: 1.10;
+    /* transform: rotate(3deg); */
+}
+
+.statusOnline {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(138, 226, 138);
+    border-radius: 50%;
+    display: block;
+}
+
+.statusOffline {
+    background-color: rgb(214, 67, 67);
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 600;
+}
